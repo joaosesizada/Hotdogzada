@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Hot Dog Clicker</title>
+</head>
+<body>
+    <div class="area area1">
+        <div id="filhoarea1">
+            <div id="nameTopo">
+                <h1>Minha Tenda</h1>
+            </div>
+            <div id="qtnHotDog">
+                <p>Hot Dogs: 0.00</p>
+            </div>
+            <div id="porSeg">
+                <p>Por segundo: 0</p>
+            </div>
+            <div id="areaHotDog">
+                <div id="click">
+                    <img src="hotdog.png" class="hotDog" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="area area2">
+        <div class="paimenu">
+            <div class="menu" id="menu">
+                <button class="btnmenu">Menu</button>
+                <button class="btnmenu">Estatisticas</button>
+                <button class="btnmenu">Camapanha</button>
+            </div>
+            <div id="pai_rp_construcoes">
+                <div class="filho_rp_construcoes">
+                    <div class="rp_construcoes" id="rp_barraca">
+                        <div class="titulo_rp">Barraca de Hot Dog</div>
+                        <div class="img_rp">blablablabal</div>
+                    </div>
+                    <div class="rp_construcoes" id="rp_fabrica">
+                        <div class="titulo_rp">Fabrica</div>
+                        <div class="img_rp">blablablabal</div>
+                    </div>
+                    <button class="Teste" onclick="guardando_dados()">Salvar</button>
+                    <button class="Teste" onclick="limpando()">Limpando</button>
+                    <button class="teste" onclick="addhotdog()">Adicionando</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="area area3">
+        <div class="paiarea3">
+            <div class="pai_titulo_loja" id="pai_titulo_loja">
+                <div class="titulo_loja">Loja</div>
+            </div>
+            <div class="bonuspai" id="bonuspai">
+                <div class="areabonus">
+                    <div class="bonusdecima">
+                        <div class="bonus" class="box_bonus1"  id="HDnotBonus" onclick="CP_HD_bonus_prata()"></div>
+                        <div class="bonus" class="box_bonus2">2</div>
+                        <div class="bonus" class="box_bonus3">3</div>
+                    </div>
+                    <div class="bonusdebaixo">
+                        <div class="bonus" class="box_bonus4" >4</div>
+                        <div class="bonus" class="box_bonus5" >5</div>
+                        <div class="bonus" class="box_bonus6" >6</div>
+                    </div>
+                </div>
+            </div>
+            <div id="paiConstrucoes">
+                <div class="construcao" id="barraca">
+                    <div class="nomeqtn">
+                        <h3>Barraca de Hot Dog</h3>
+                        <div><h2 id="numbarraca">0</h2></div> 
+                    </div>
+                    <div class="paicusto">
+                        <p class="custo" id="custobarraca">Custo: 30</p>
+                        <img src="hotdog.png" class="hotdogaolado" width="20px" alt="">
+                    </div>
+                </div>  
+                
+                <div class="construcao" id="fabrica">
+                    <div class="nomeqtn">
+                        <h3>Fabrica</h3>
+                        <div><h2 id="numfabrica">0</h2></div> 
+                    </div>
+                    <div class="paicusto">
+                        <p class="custo" id="custofabrica">Custo: 130</p>
+                        <img src="hotdog.png" class="hotdogaolado" width="20px" alt="">
+                    </div>
+                </div>  
+                <div class="construcao" id="fabrica">
+                    <div class="nomeqtn">
+                        <h3>Fabrica</h3>
+                        <div><h2 id="numfabrica">0</h2></div> 
+                    </div>
+                    <div class="paicusto">
+                        <p class="custo" id="custofabrica">Custo: 100</p>
+                        <img src="hotdog.png" class="hotdogaolado" width="20px" alt="">
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+</body>
+</html>

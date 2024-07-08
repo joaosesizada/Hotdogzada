@@ -1,0 +1,306 @@
+/*A pagina e divide em 3 areas princiapais como voce pode ver*/
+
+body {
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    box-sizing: border-box;
+}
+/*areas*/
+.area {
+    display: flex;
+    color: white;
+    box-sizing: border-box;
+}
+/*Primeira area, contem os contadores, nome, area de click*/
+.area1 {
+    flex: 3;
+    background-color: #880808; 
+    width: 100%;
+    height: 96vh;;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 0.5%;
+}
+
+div#filhoarea1 {
+    width: 100%;
+    color: white;
+}
+
+div#nameTopo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(187, 184, 184, 0.74); 
+}
+div#qtnHotDog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(187, 184, 184, 0.74);
+}
+div#porSeg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(187, 184, 184, 0.74);
+}
+div#areaHotDog{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div#click{
+    width: 240px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.hotDog {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    background-color:  rgba(187, 184, 184, 0.74);
+}
+
+/*Segundo area, contem os meus e estatistica, e a representações das contruções em imagens*/
+.area2 {
+    flex: 2.5;
+    height: 96vh;;
+    background-color: #d4a017;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+.paimenu {
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.menu {
+    background-color: #4b4b4b8e;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 2vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.btnmenu {
+    border: none;
+    background-color: #5f5b5b;
+    color: white;
+    border-radius: 25px;
+    width: 90px;
+    height: 28px;
+    cursor:pointer;
+    transition: 0.8s;
+}
+.btnmenu:hover {
+    background-color: #333333;
+    width: 108px;
+    height: 33.6px;
+}
+
+#pai_rp_construcoes {
+    width: 100%;
+    min-height: 200px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.filho_rp_construcoes {
+    background-color: #4b4b4b8e;
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 15px;
+}
+
+.rp_construcoes{
+    background-color: rgb(161, 116, 116);
+    background-color: white;
+    border-radius: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.titulo_rp {
+    font-size: 24px;
+    background-color: #d4a017;
+    border-radius: 0px 0px 15px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    padding: 10px 10px;
+}
+.img_rp {
+    padding: 10px;
+    color: #d4a017;
+}
+
+
+/*Area tres, contem a area de bonus e de compra de construções*/
+.area3 {
+    flex: 2;
+    background-color: #7696da; 
+    width: 100%;
+    height: 96vh;
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 0.5%;
+    margin-right: 1%;;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+
+.paiarea3 {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 10px 10px;
+}
+
+.pai_titulo_loja {
+    background-color: #00000052;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 25px;
+}
+.titulo_loja {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.bonuspai{
+    width: 100%;
+    height: 160px;
+    background-color: rgb(82, 81, 81);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 25px;
+
+}
+.areabonus {
+    padding: 10px;
+    border-radius: 25px; 
+    margin-bottom: 10px;
+    height: 140px;
+}
+.bonusdecima {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+}
+.bonusdebaixo {
+    display: flex;
+    justify-content: space-evenly;
+}
+.bonus {
+    margin-top: 6px;
+    border: 3px solid black;
+    background-color: rgb(51, 51, 51);
+    width: 55px;
+    height: 55px;
+    box-sizing: border-box;
+}
+/*Area pra bonus*/
+#HDnotBonus {
+    background-image: url(bonusImg/NotBonus.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#HDbonus_prata {
+    background-image: url(bonusImg/HD_bonus_prata.png);
+    background-size: cover;
+    background-color: rgb(170, 166, 166);
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+/*Fim da area bonus*/
+div#paiConstrucoes {
+    width: 100%;
+    min-height: 120px;
+    border-radius: 10px;
+    overflow: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgb(82, 81, 81);
+}
+#paiConstrucoes:hover > :not(:hover) {
+    opacity: 0.6;
+}
+
+.construcao {
+    background-color: #8aa3da;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: 0.8s; 
+    padding: 9px;
+    border: none;
+    transition: 1s ease;;
+}
+
+.construcao:hover{
+    outline: 3px solid #d3e1ffa4 ;
+    outline-offset: 3px;
+}
+.nomeqtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 4vh;
+}
+.paicusto {
+    display: flex;
+    
+}
+.custo {
+    margin: 0;
+}
+.hotdogaolado {
+    padding-left: 5px;
+}
